@@ -1,6 +1,7 @@
-# RAGs Querying Notebooks
 
-Welcome to the RAGs Querying Notebooks repository. This repository contains a collection of Jupyter notebooks that demonstrate the implementation and usage of Retrieval-Augmented Generation (RAG) models for querying tasks.
+# RAGs/Querying Notebooks
+
+Welcome to the `RAGs/querying` section of the HackTheRobots repository! This directory contains a series of Jupyter Notebooks designed to demonstrate the capabilities and applications of Retrieval-Augmented Generation (RAG) models. Each notebook is a self-contained example that illustrates how to use RAG models to enhance the querying process with the power of machine learning.
 
 ## Project Structure
 
