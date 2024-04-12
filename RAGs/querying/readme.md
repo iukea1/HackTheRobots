@@ -1,19 +1,25 @@
-# RAGs Project
+# RAGs Querying Notebooks
 
-This project contains a collection of notebooks demonstrating the implementation and usage of Retrieval-Augmented Generation (RAG) models. 
+Welcome to the RAGs Querying Notebooks repository. This repository contains a collection of Jupyter notebooks that demonstrate the implementation and usage of Retrieval-Augmented Generation (RAG) models for querying tasks.
 
-## Notebooks
+## Project Structure
 
-1. [simple_rag.ipynb](RAGs/simple_rag.ipynb): This notebook provides a simple implementation of the RAG model. It's a great starting point for beginners. 
+The project is structured into several notebooks, each focusing on a different aspect of querying with RAG models:
 
-2. [advanced_rag.ipynb](RAGs/advanced_rag.ipynb): This notebook builds upon the concepts covered in the `simple_rag.ipynb` notebook and introduces more advanced techniques for improving the performance of the RAG model.
+1. [Multi-Document Agents](Multi_Document_Agents.ipynb): This notebook demonstrates how to use the `MultiDocumentAgent` class to handle complex queries that span across multiple documents. It shows how to initialize a `MultiDocumentAgent`, how to add documents to it, and how to use it to answer queries.
 
-3. [multi-document_agent.ipynb](RAGs/multi-document_agent.ipynb): This notebook involves working with multiple documents and requires a deeper understanding of the RAG model. It is recommended for experienced users who are familiar with the RAG framework.
+2. [SubQuestion Query Engine](SubQuestion_Query_Engine.ipynb): This notebook delves into addressing complex queries that extend over various documents by breaking them down into simpler sub-queries and generate answers using the `SubQuestionQueryEngine`.
 
-#
+3. [App](app.py): This Python script provides a Gradio interface for processing academic papers and performing queries on them. It uses the ArXiv API to download papers based on a search query, processes the papers and saves them to an embeddings database, and then allows the user to perform queries on the processed papers.
 
 ## Getting Started
 
-To get started with the project, clone the repository and navigate to the RAGs directory. Install the necessary dependencies as outlined in each notebook.
+To begin exploring this project:
+
+1. Clone the repository to your local machine.
+2. Navigate to the RAGs/querying directory.
+3. Follow the instructions in each notebook to install the necessary dependencies.
 
 ## Contributing
+
+We welcome contributions to this project. Whether it's improving the existing notebooks, adding new ones, or providing feedback, your contributions are greatly appreciated. Please see the contributing guidelines for more information.
