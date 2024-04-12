@@ -1,0 +1,6 @@
+/Untitled-1.ipynb
+#ignore pdfs
+*.pdf
+#add chromadb files to ignore
+*.sqlite3
+*.sqlite3-journal
